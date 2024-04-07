@@ -11,9 +11,50 @@
 
 <br>
 
-<p>🔥本项目旨在为 <b>Python GUI</b> 开发提供一个更加强大和灵活的解决方案，使得开发工作变得更加高效和灵活。。本框架适用于构建各种客户端应用程序，无论是数据库管理工具、图形化数据分析界面还是个性化的业务应用。</p>
+<p>🔥本项目旨在为 <b>Python GUI</b> 开发提供一个更加强大和灵活的解决方案，使得开发工作变得更加高效和灵活。本框架适用于构建各种客户端应用程序，无论是数据库管理工具、图形化数据分析界面还是个性化的业务应用。</p>
 
 <hr>
+
+## 📖目录
+- [快速启动](#快速启动)
+- [支持项目](#支持项目)
+- [项目简介](#项目简介)
+- [动图展示](#动图展示)
+- [特性](#特性)
+- [项目结构](#项目结构)
+- [二次开发](#二次开发)
+- [联系作者](#联系作者)
+- [致谢](#致谢)
+- [许可证](#许可证)
+
+
+## ⚡ 快速启动
+
+> 本项目使用 `Python` 和 `PySide6`，确保你已经安装了 `Python 3.12+` 和 `PySide6`
+
+快速启动本项目，只需几个简单步骤：
+
+1. **克隆仓库**：
+   ```bash
+   git clone https://github.com/Frica01/PinnacleQt_GUI_PySide6_PyQt6.git
+   ```
+2. **安装依赖**：
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **运行应用**：
+   ```bash
+   python main.py
+   ```
+
+
+## 🌟 支持项目
+
+如果您觉得这个项目有用，不妨给它一个⭐️（`Star`）。`Star`对我来说是一种鼓励，也能帮助更多的开发者发现这个工具。
+
+如果您希望跟踪最新的更新和改进，请`Fork`🍴本项目。`Fork`可以让您保持对项目更新的同步，并有机会贡献自己的改进和新功能。
+
+
 
 
 
@@ -28,21 +69,22 @@
 <details>
 <summary><b>展开</b></summary>
 
+
 ### 启动界面
-<img src="assets/program_launch.gif" alt="program_launch"/>
+<img src="assets/program_launch.gif" alt="assets/program_launch"/>
 
 ### 基本展示
 
-<img src="assets/program_animation.gif" alt="assets%2Fprogram_animation"/>
+<img src="assets/program_animation.gif" alt="assets/program_animation"/>
 
 ### 切换主题
 
-<img src="assets/switch_theme.gif" alt="assets%switch_theme"/>
+<img src="assets/switch_theme.gif" alt="assets/switch_theme"/>
 
 </details>
 
 
-## 🧐特性
+## 📌特性
 
 以下是具体的特性说明：
 
@@ -104,37 +146,7 @@ PinnacleQt_GUI_PySide6_PyQt6/
 ```
 </details>
 
-## ✅开发
-
-> 本项目使用 `Python` 和 `PySide6`，确保你已经安装了 `Python 3.12+` 和 `PySide6`
-
-
-
-### 如何启动
-
-1. 克隆仓库到本地：
-   ```bash
-   git clone https://github.com/Frica01/PinnacleQt_GUI_PySide6_PyQt6.git
-   ```
-
-   
-
-2. 安装所需依赖：
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   
-
-3. 启动应用：
-
-   ```bash
-   python main.py
-   ```
-
-
-### 扩展使用
+## 🧐 二次开发
 
 想要对本项目进行定制化使用，您可以按照以下步骤操作： 
 
@@ -143,6 +155,7 @@ PinnacleQt_GUI_PySide6_PyQt6/
 3. **控制器（Controller）使用**：在 `controllers/` 目录下创建或修改文件，将模型和视图连接起来。控制器负责响应用户输入，通过模型获取数据，然后更新视图显示。 
 
 通过上述步骤，您可以轻松扩展现有的功能或为应用添加全新的特性。
+
 
 ## ✉️ 联系作者
 如果您有任何问题或者想要更多地了解项目，欢迎通过以下方式联系我：
